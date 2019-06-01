@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- head 引入 css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="lib/owlcarousel/owl.carousel.css">
+    <script type="text/javascript" src="lib/jquery/jquery.js"></script>
+    <script type="text/javascript" src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Debby</title>
+  </head>
+  <body>
+    <!-- 往上的按鈕-->
+    <div id="taptop"><a href="#top"><i class="fa fa-chevron-up"></i></a></div>
+    <!--導覽列-->
+    <nav>
+      <div class="container" id="rwdNav">
+        <div class="row align-items-center col-12" id="rwdNav2">
+          <div class="nav_hamburger"><i class="fas fa-align-center"></i><i class="navclose fas fa-times-circle hidden"></i></div>
+          <div class="nav_logo"><a href="#top">
+              <div class="logo_w"><img src="img/logo_w.svg" alt=""></div>
+              <div class="logo_bk"><img src="img/logo_bk.svg" alt=""></div></a></div>
+          <div class="nav_list align-center">
+            <ul>
+              <li><a href="#top">HOME</a></li>
+              <li><a href="#service">SERVICE</a></li>
+              <li><a href="#protfolio">PROTFOLIO</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- KV-->
+    <section id="banner">
+      <div class="kv" id="top"></div>
+      <div class="container">
+        <div class="kv_title reveal_bottom">
+          <h1>Hi  I’m  Debby!</h1>
+          <p>這裡是我第一次用 jQuery 寫的網頁。當中也練習使用 bootstrap 網格、jade、sass 編寫。</p>
+          <div class="kv_btn"><a href="#protfolio">MY PORTFOLIO</a></div>
+        </div>
+      </div>
+    </section>
+    <!-- 第一區塊 SERVICE-->
+    <section id="service">
+      <div class="container">
+        <div class="row justify-content-center reveal_bottom">
+          <div class="col-12 align-center">
+            <div class="title title_1">SERVICE</div>
+          </div>
+        </div>
+        <div class="row justify-content-center reveal_bottom">
+          <div class="col-lg-8 col-md-10 col-sm-12 p align-center" style="margin-top:25px">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center reveal_bottom" style="margin-top:70">
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="servicebox">
+              <div class="icon align-center"><i class="fas fa-cog"></i></div>
+              <div class="boxtitle align-center">Graphic Design</div>
+              <div class="align-center">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="servicebox">
+              <div class="icon align-center"><i class="fas fa-cog"></i></div>
+              <div class="boxtitle align-center">Graphic Design</div>
+              <div class="align-center">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="servicebox">
+              <div class="icon align-center"><i class="fas fa-cog"></i></div>
+              <div class="boxtitle align-center">Graphic Design</div>
+              <div class="align-center">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 第二區塊 PROTFOLIO-->
+    <section id="protfolio">
+      <div class="container">
+        <div class="row justify-content-center reveal_bottom">
+          <div class="col-12 align-center">
+            <div class="title title_2">PROTFOLIO</div>
+          </div>
+        </div>
+        <div class="row justify-content-center reveal_bottom" style="margin-top:50px">
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="imgbox" style="background-image: url(img/img1.png);" data-src="img/img1.png" data-target="box01">
+              <div class="overlay">
+                <div class="imgname align-center">Demo1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="imgbox" style="background-image: url(img/img2.png);" data-src="img/img2.png" data-target="box02">
+              <div class="overlay">
+                <div class="imgname align-center">Demo2</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="imgbox" style="background-image: url(img/img3.png);" data-src="img/img3.png" data-target="box03">
+              <div class="overlay">
+                <div class="imgname align-center">Demo3</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center reveal_bottom">
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="imgbox" style="background-image: url(img/img4.png);" data-src="img/img4.png" data-target="box04">
+              <div class="overlay">
+                <div class="imgname align-center">Demo4</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="imgbox" style="background-image: url(img/img5.png);" data-src="img/img5.png" data-target="box05">
+              <div class="overlay">
+                <div class="imgname align-center">Demo5</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 col-sm-12">
+            <div class="imgbox" style="background-image: url(img/img6.png);" data-src="img/img6.png" data-target="box06">
+              <div class="overlay">
+                <div class="imgname align-center">Demo6</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lightbox">
+        <div class="bg"></div>
+        <div class="box">
+          <div class="closeBox">
+            <div class="fas fa-times-circle"></div>
+          </div><img class="photo" src="img/img1.png" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- 第三區塊 client-->
+    <section id="client">
+      <div class="container">
+        <div class="row justify-content-center reveal_bottom">
+          <div class="col-lg-8 col-md-8 col-sm-11">
+            <div class="owl-carousel owl-theme clienttheme">
+              <div class="item">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="clientbox"><img src="img/client_1.jpg"></div>
+              </div>
+              <div class="item">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="clientbox"><img src="img/client_1.jpg"></div>
+              </div>
+              <div class="item">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="clientbox"><img src="img/client_1.jpg"></div>
+              </div>
+              <div class="item">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="clientbox"><img src="img/client_1.jpg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 第四區塊 contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="contact_left reveal_Lleft">
+              <div class="title title_3">CONTACT</div>
+              <p class="contact_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="contact_list">
+                <div class="list">
+                  <div class="contact_icon"><img src="img/contact-01.svg"></div>
+                  <p>E-mail<br><span style="color:$purple">info@mail.example.com</span></p>
+                </div>
+                <div class="list">
+                  <div class="contact_icon"><img src="img/contact-02.svg"></div>
+                  <p>Phone<br><span style="color:$purple">000-000-000</span></p>
+                </div>
+                <div class="list">
+                  <div class="contact_icon"><img src="img/contact-03.svg"></div>
+                  <p>Address<br><span style="color:$purple">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="contact_right reveal_bottom">
+              <form id="form">
+                <input id="input_name" type="text" placeholder="Name">
+                <input id="input_sub" type="text" placeholder="Subject">
+                <input id="input_email" type="email" placeholder="E-mail">
+                <textarea id="input_say" placeholder="Say Something"></textarea>
+                <input class="form_btn" id="submit" type="submit" value="SEND">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 第五區塊 footer-->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 align-center reveal_bottom"><a class="ft_logo" href="#top"> LOGO</a></div>
+        </div>
+        <div class="row justify-content-center reveal_bottom">
+          <div class="col-12 align-center" style="margin-bottom:20px">
+            <div class="ft_icon">
+              <div class="social"><img src="img/ft_social_01_w.svg"><img src="img/ft_social_01_bk.svg"></div>
+            </div>
+            <div class="ft_icon">
+              <div class="social"><img src="img/ft_social_02_w.svg"><img src="img/ft_social_02_bk.svg"></div>
+            </div>
+            <div class="ft_icon">
+              <div class="social"><img src="img/ft_social_03_w.svg"><img src="img/ft_social_03_bk.svg"></div>
+            </div>
+            <div class="ft_icon">
+              <div class="social"><img src="img/ft_social_04_w.svg"><img src="img/ft_social_04_bk.svg"></div>
+            </div>
+            <div class="ft_icon">
+              <div class="social"><img src="img/ft_social_05_w.svg"><img src="img/ft_social_05_bk.svg"></div>
+            </div>
+            <div class="ft_icon">
+              <div class="social"><img src="img/ft_social_06_w.svg"><img src="img/ft_social_06_bk.svg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 align-center space-30">
+            <div class="copyright">Copyright debby. All-Right Reserved</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end-->
+    <script type="text/javascript" src="lib/jquery/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+  </body>
+</html>
